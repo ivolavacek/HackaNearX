@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build:curso": "cd curso && npm run build",
+    "build:servidor": "cd servidor && npm run build",
+    "start":"node api.js"
+  },
+  "dependencies": {
+    "express": "^4.19.1"
+  }
+}
