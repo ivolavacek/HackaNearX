@@ -1,0 +1,92 @@
+.menu-bar {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(19, 140, 164);
+  position: relative;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.menu-bar.Light {
+  color: #fff;
+}
+
+.menu-bar.Dark {
+  color: #000;
+}
+
+.menu {
+  max-width: 700px;
+  font-size: 24px;
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.menu.Light a{
+  color: #fff;
+}
+
+.menu.Dark a {
+  color: #000;
+}
+
+.menu li {
+  margin-right: 10px;
+  font-weight: normal;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu li a {
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  font-weight: bold;
+}
+
+.logo {
+  width: auto;
+  height: 60px;
+}
+
+/*-----Config Div Switch Button + Projeto + Logo-----*/
+.parte-esq {
+  display: flex;
+  align-items: center;
+  /*margin-left: 25px;*/
+  /*font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;*/
+}
+
+/*-----Config Div do Nome do Grupo-----*/
+.grupo {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-left: 20px;
+}
+
+.grupo p {
+  flex: 1;
+  margin: 0px;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}

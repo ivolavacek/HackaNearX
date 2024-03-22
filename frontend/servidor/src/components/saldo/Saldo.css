@@ -1,0 +1,16 @@
+.saldo {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100px;
+  }
+  
+.saldo p {
+    flex: 1;
+    margin: 0px;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

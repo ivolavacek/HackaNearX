@@ -1,0 +1,92 @@
+.carteira{
+  position: relative;
+  right: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  width: 400px;
+}
+
+.buttons {
+  position: relative;
+  height: 100%;
+  width: 100%; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons.noshow {
+  justify-content: center;
+}
+
+.faucet.noshow {
+  display: none;
+}
+
+.desconectar.noshow {
+  display: none;
+}
+
+.saldo.noshow {
+  display: none;
+}
+
+.faucet {
+  margin-right: 0px;
+  border-radius: 10px;
+}
+
+.desconectar {
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.faucet.Light {
+  background-color: #fff;
+  color: #000
+}
+  
+.faucet.Dark {
+  background-color: #555;
+  color: #fff;
+}
+
+.desconectar.Light {
+  background-color: #fff;
+  color: #000
+}
+  
+.desconectar.Dark {
+  background-color: #555;
+  color: #fff;
+}
+
+.saldo {
+  margin-left: 0px;
+}
+
+.connect-button {
+    width: 180px;
+    height: 32px;
+    border-radius: 20px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.connect-button.Light {
+  background-color: #fff;
+  color: #000
+}
+  
+.connect-button.Dark {
+  background-color: #555;
+  color: #fff;
+}
+
+.connect-button button {
+    width: 100%;
+    height: 100%;
+}

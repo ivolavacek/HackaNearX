@@ -1,0 +1,105 @@
+.titulo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    height: auto;
+    z-index: 2;
+    overflow: hidden;
+    text-align: center;
+<<<<<<< Updated upstream
+    border: 1px solid black;
+=======
+>>>>>>> Stashed changes
+}
+
+.titulo.Light {
+    background-color: rgb(209, 212, 215);
+    color: black
+}
+
+.titulo.Dark {
+    background-color: #333;
+    color: white;
+}
+
+.symbol {
+    position: relative;
+    height: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.texto1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.texto2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.total {
+    width: auto;
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.total.Light {
+    background-color: rgb(209, 212, 215);
+    color: black
+}
+
+.total.Dark {
+    background-color: #333;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+<<<<<<< Updated upstream
+    border: 1px solid black;
+=======
+>>>>>>> Stashed changes
+    width: auto;
+    position: relative;
+}
+
+.square {
+    width: 250px; /* Largura do quadrado */
+    height: 200px; /* Altura do quadrado */
+<<<<<<< Updated upstream
+    border: 2px solid black; /* Bordas pretas */
+    margin: 20px;
+=======
+    background-color: rgb(19, 140, 164);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.container.Light {
+    color: black;
+}
+
+.container.Dark {
+    color: white;
+}
+
+.paragrafos {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+>>>>>>> Stashed changes
+}

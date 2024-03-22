@@ -1,0 +1,80 @@
+.NFT {
+    width: auto;
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.NFT.Light {
+    background-color: rgb(209, 212, 215);
+    color: black
+}
+
+.NFT.Dark {
+    background-color: #333;
+    color: white;
+}
+
+.texto3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.squareNFTOwner {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 150px;
+    padding: 0px 50px;
+    align-items: center;
+    gap: 50px;
+    padding: 10px 50px;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative; /* Adicionado */
+}
+
+.squareNFTOwner a {
+    text-align: center;
+    color: white;
+    background-color: rgb(19, 140, 164);
+    text-decoration: none;
+    font-size: 15pt;
+    position: absolute; /* Adicionado */
+    width: 100%; /* Adicionado */
+    height: 100%; /* Adicionado */
+    top: 0; /* Adicionado */
+    left: 0; /* Adicionado */
+    border-radius: 10px;
+}
+
+.squareNFTOwner > a:hover {
+    border: 0.2px solid black;
+    color: rgb(19, 140, 164);
+    background-color: white;
+}
+
+.squareNFTOwner > p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15pt;
+    text-align: center;
+    margin: 0;
+}
+
+.Nfts {
+    display: flex;
+    gap: 15px;
+}
+
+.certificado {
+    background-color: rgb(137, 0, 165);
+    color: white;
+}
+
+.curso a {
+    text-decoration: none;
+    font-weight: bold;
+}

@@ -1,0 +1,216 @@
+.titulo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    height: auto;
+    z-index: 2;
+    overflow: hidden;
+    text-align: center;
+}
+
+.titulo.Light {
+    background-color: rgb(209, 212, 215);
+    color: black
+}
+
+.titulo.Dark {
+    background-color: #333;
+    color: white;
+}
+
+.symbol {
+    position: relative;
+    height: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.texto1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.texto2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.total {
+    width: auto;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.total.Light {
+    background-color: rgb(209, 212, 215);
+    color: black
+}
+
+.total.Dark {
+    background-color: #333;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    position: relative;
+}
+
+body {
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.videos h1 {
+    text-align: center;
+}
+
+.modais {
+  width: 400px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.video.Light > button {
+  width: 200px;
+  border-radius: 20px;
+  height: 30px;
+  background-color: #333;
+  color: white;
+  font-size: 16pt;
+}
+
+.video.Light > button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #555;
+}
+
+.video.Dark > button {
+  width: 200px;
+  border-radius: 20px;
+  height: 30px;
+  background-color: #ccc;
+  color: black;
+  font-size: 16pt;
+}
+
+.video.Dark button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  height: 80%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 1); /* Fundo escuro para destacar o modal */
+  padding: 20px 40px;
+  border-radius: 10px;
+  z-index: 9999; /* Para garantir que o modal esteja na frente de todos os outros elementos */
+  overflow-y: auto;
+}
+
+.modal-content {
+  position: relative;
+  color: white;
+  align-items: center;
+  justify-self: center;
+}
+
+.close {
+  position: absolute;
+  top: -40px;
+  right: -10px;
+  font-size: 40pt;
+  color: white;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: red; /* Cor do botão de fechar quando passar o mouse por cima */
+}  
+
+.videos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.certificado {
+  width: 40%;
+  margin-bottom: 20px;
+  border-radius: 40px;
+  height: 60px;
+  background-color: green;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 17pt;
+}
+
+.certificado:hover {
+  cursor: pointer;
+  color: green;
+  background-color: white;
+}
+
+.certificado:disabled {
+  opacity: 0.2;
+}
+
+.check-button.unchecked {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 2px solid #ff0000; /* cor da borda do botão */
+  border-radius: 50%; /* para criar um círculo */
+  cursor: pointer;
+}
+
+.check-button.checked:hover {
+  background-color: #03f303;
+}
+
+.check-button.unchecked:hover {
+  background-color: transparent;
+}
+
+.check-button.checked {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%; /* para criar um círculo */
+  cursor: pointer;
+  background-color: #03f303; /* cor de fundo quando estiver marcado */
+}
+
+.videoContents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
