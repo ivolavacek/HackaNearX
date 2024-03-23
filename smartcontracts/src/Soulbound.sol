@@ -10,7 +10,7 @@ contract Soulbound is ERC721, ERC721URIStorage, Ownable {
     mapping(uint256 => bool) _locked;
 
     constructor(address initialOwner)
-        ERC721("GivKey", "GIV")
+        ERC721("GivCertificate", "GivC")
         Ownable(initialOwner)
     {}
 
@@ -32,6 +32,14 @@ contract Soulbound is ERC721, ERC721URIStorage, Ownable {
 
     function getContractAddress() public view returns (address) {
         return address(this);
+    }
+    
+    function ownsToken(address user) public view returns (bool) {
+        return balanceOf(user) > 0;
+    }
+
+    function balanceToken(address user) public view returns (uint256) {
+        return balanceOf(user);
     }
 
     function _update(address to, uint256 tokenId, address auth)
