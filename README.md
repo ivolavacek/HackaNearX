@@ -131,7 +131,7 @@ Também foi necessário fazer o deploy dos mesmos e realizar interações da car
 Apesar de complicado, o grupo conseguiu desenvolver o MVP de uma forma satisfatória, além de ter ganho aprendizagens muito valiosas em experiências práticas.
   
 ## Video Pitch do projeto
-
+https://youtu.be/Xcq_ZzjUwd0
 
 
 ## Figma do projeto:
