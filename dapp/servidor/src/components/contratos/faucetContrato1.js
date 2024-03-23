@@ -199,7 +199,7 @@ const contractABI = [
 
 const { ethers } = require('ethers');
 
-const contractAddressERC20 = '0x255d2A697AC5974B21F7816E329DbFe046CE913c';
+const contractAddressERC20 = '0x71F043a9072b5ec430C0a1DD766E1C8C613eDc5d';
 
 const provider = new ethers.JsonRpcProvider('https://sepolia.optimism.io');
 

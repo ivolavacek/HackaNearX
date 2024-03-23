@@ -1,8 +1,22 @@
 version: '3.8'
 services:
 
+
+  curso:
+    build:
+      context: ./dapp/curso
+      dockerfile: Dockerfile
+   
+  servidor:
+    build:
+      context: ./dapp/servidor
+      dockerfile: Dockerfile
+
+
   dapp:
     depends_on:
+      - curso
+      - servidor
       - deploy
     build:
       context: ./dapp

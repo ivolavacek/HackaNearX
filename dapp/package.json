@@ -1,7 +1,9 @@
 {
   "scripts": {
+    "instalar:curso":"cd curso && npm install",
+    "instalar:servidor":"cd servidor && npm install",
     "build:curso": "cd curso && npm run build",
-    "build:servidor": "cd servidor && npm run build",
+    "build:servidor": "cd curso  && npm run build",
     "start":"node api.js"
   },
   "dependencies": {

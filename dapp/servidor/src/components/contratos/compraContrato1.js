@@ -199,7 +199,7 @@ const contractABI721 = [
 
 const { ethers } = require('ethers');
 
-const contractAddressERC20 = '0x255d2A697AC5974B21F7816E329DbFe046CE913c';
+const contractAddressERC20 = '0x71F043a9072b5ec430C0a1DD766E1C8C613eDc5d';
 
 const provider = new ethers.JsonRpcProvider('https://sepolia.optimism.io');
 
@@ -213,7 +213,7 @@ async function compraNFT() {
     const signer = await provider.getSigner();
     const connectedContract = contractERC20.connect(signer);
     const quantidadeTokens = ethers.parseUnits('50', 18);
-    const resultado = await connectedContract.transfer('0x255d2A697AC5974B21F7816E329DbFe046CE913c', quantidadeTokens);
+    const resultado = await connectedContract.transfer('0x71F043a9072b5ec430C0a1DD766E1C8C613eDc5d', quantidadeTokens);
     console.log("Contrato1 | Compra | Resultado: ", resultado); //bool
     return resultado
   } catch (error) {
